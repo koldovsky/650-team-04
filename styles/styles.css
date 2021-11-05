@@ -2,8 +2,15 @@
     background-color: #f9f4f0;
 }
 
-.header_button {
+.header_button, .header_button_buynow {
     color: #5a3733;
+}
+
+.header_button_buynow {
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: #eb6d2f;
+    border-style: solid;
 }
 
 .bigword {
@@ -14,7 +21,7 @@
     color: #eb6d2f!important;
 }
 
-.button_buy_now {
+.button_buy_now_big {
     background-color: #eb6d2f!important;
     border-width: 2px;
     border-radius: 8px;

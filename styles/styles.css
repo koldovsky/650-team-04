@@ -2,6 +2,35 @@
     background-color: #f9f4f0;
 }
 
+.header_button {
+    color: #5a3733;
+}
+
+.bigword {
+    color: #5a3733;
+}
+
+.headtoname {
+    color: #eb6d2f!important;
+}
+
+.button_buy_now {
+    background-color: #eb6d2f!important;
+    border-width: 2px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.wwd {
+    color: #5a3733;
+}
+
 .textca-head {
     font-size: 25px;
     line-height: 1.4;
@@ -12,6 +41,10 @@
     letter-spacing: 0;
     color: #5a3733;
     text-transform: none;
+}
+
+.yellow_learn_more {
+    color: #ffd832;
 }
 
 .textca {

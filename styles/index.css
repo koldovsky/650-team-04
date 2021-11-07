@@ -2,7 +2,7 @@
     --main-color: #f9f4f0;
     --accent-color: #5a3733;
     --highlight-color: #eb6d2f;
-    --text-color:;
+    --text-color-carousel: #939393;
 }
 
 
@@ -91,7 +91,7 @@
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0;
-    color: #939393;
+    color: var(--text-color-carousel);
     text-transform: none;
 }
 

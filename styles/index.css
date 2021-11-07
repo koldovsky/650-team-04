@@ -2,6 +2,7 @@
     --main-color: #f9f4f0;
     --accent-color: #5a3733;
     --highlight-color: #eb6d2f;
+    --text-color:;
 }
 
 
@@ -17,7 +18,9 @@
 
 /* Button in head */
 .header_button, .header_button_buynow {
-    color: var(--accent-color)
+    color: var(--accent-color);
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
 }
 
 /* Border of Buy now button in header */
@@ -29,17 +32,19 @@
 }
 
 
-/*колір слова HONEYBEE*/
+/*word HONEYBEE*/
 .bigword {
     color: var(--accent-color);
+    font-family: 'Signika Negative', sans-serif;
 }
 
 /*100% organic i services */
 .headtoname {
     color: var(--highlight-color)!important;
+    font-family: 'Open Sans', sans-serif;
 }
 
-/* Велика кнопка Buy Now яка іде під словом HONEYBEE */
+/* big button Buy Now under HONEYBEE */
 .button_buy_now_big {
     background-color: var(--highlight-color)!important;
     border-width: 2px;
@@ -56,6 +61,7 @@
 /*what we do*/
 .whatwedo {
     color: var(--accent-color);
+    font-family: Signika Negative,sans-serif;
 }
 
 /*names in carousel*/
@@ -80,7 +86,7 @@
 .text_carousel {
     font-size: 16px;
     line-height: 1.7;
-    font-family: Open Sans,sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-decoration: none;
     font-style: normal;

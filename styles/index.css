@@ -90,7 +90,7 @@ h3{
     font-family: Open Sans,sans-serif;
 }
 .honey-video{
-    width= 1506;
-    height= 567;
+    width: auto;
+    height: auto;
     frameborder= 0;
 }

@@ -1,38 +1,47 @@
-.header {
-    background-color: #f9f4f0;
+:root {
+    --main-color: #f9f4f0;
+    --accent-color: #5a3733;
+    --highlight-color: #eb6d2f;
+}
+
+
+/*Page background*/
+.body {
+    background-color: var(--main-color);
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Button in head */
 .header_button, .header_button_buynow {
-    color: #5a3733;
+    color: var(--accent-color)
 }
 
 /* Border of Buy now button in header */
 .header_button_buynow {
     border-width: 2px;
     border-radius: 8px;
-    border-color: #eb6d2f;
+    border-color: var(--highlight-color);
     border-style: solid;
 }
 
-/*Page background*/
-.body {
-    background-color: #f9f4f0;
-}
 
 /*колір слова HONEYBEE*/
 .bigword {
-    color: #5a3733;
+    color: var(--accent-color);
 }
 
 /*100% organic i services */
 .headtoname {
-    color: #eb6d2f!important;
+    color: var(--highlight-color)!important;
 }
 
 /* Велика кнопка Buy Now яка іде під словом HONEYBEE */
 .button_buy_now_big {
-    background-color: #eb6d2f!important;
+    background-color: var(--highlight-color)!important;
     border-width: 2px;
     border-radius: 8px;
     border: none;
@@ -46,7 +55,7 @@
 
 /*what we do*/
 .whatwedo {
-    color: #5a3733;
+    color: var(--accent-color);
 }
 
 /*names in carousel*/
@@ -58,7 +67,7 @@
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0;
-    color: #5a3733;
+    color: var(--accent-color);
     text-transform: none;
 }
 
@@ -79,6 +88,8 @@
     color: #939393;
     text-transform: none;
 }
+
+
 /*lists maket*/
 ul{
     font-size: 16px;

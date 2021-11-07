@@ -2,12 +2,12 @@
     background-color: #f9f4f0;
 }
 
-/* кнопки в заголовку */
+/* Button in head */
 .header_button, .header_button_buynow {
     color: #5a3733;
 }
 
-/* кнопка Buy now в заголовку */
+/* Border of Buy now button in header */
 .header_button_buynow {
     border-width: 2px;
     border-radius: 8px;
@@ -15,7 +15,7 @@
     border-style: solid;
 }
 
-/*фон сторінки*/
+/*Page background*/
 .body {
     background-color: #f9f4f0;
 }
@@ -44,13 +44,13 @@
     font-size: 16px;
 }
 
-/*what we did*/
-.wwd {
+/*what we do*/
+.whatwedo {
     color: #5a3733;
 }
 
-/*назви в каруселях*/
-.textca-head {
+/*names in carousel*/
+.text_carousel-head {
     font-size: 25px;
     line-height: 1.4;
     font-family: Signika Negative,sans-serif;
@@ -62,13 +62,13 @@
     text-transform: none;
 }
 
-/* кнопка learn more в каруселі */
+/*  learn more in carousel */
 .yellow_learn_more {
     color: #ffd832;
 }
 
-/*текст в каруселі*/
-.textca {
+/*text in carousel*/
+.text_carousel {
     font-size: 16px;
     line-height: 1.7;
     font-family: Open Sans,sans-serif;

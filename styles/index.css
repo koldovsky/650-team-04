@@ -40,13 +40,13 @@
 
 /*100% organic i services */
 .headtoname {
-    color: var(--highlight-color)!important;
+    color: var(--highlight-color);
     font-family: 'Open Sans', sans-serif;
 }
 
 /* big button Buy Now under HONEYBEE */
 .button_buy_now_big {
-    background-color: var(--highlight-color)!important;
+    background-color: var(--highlight-color);
     border-width: 2px;
     border-radius: 8px;
     border: none;

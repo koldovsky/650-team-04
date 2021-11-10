@@ -14,8 +14,7 @@
 /*Page background*/
 .body {
     background-color: var(--main-color);
-    position:relative; 
-    left:200px;    
+    margin:25%;    
 }
 
 /*lists maket*/

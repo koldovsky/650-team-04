@@ -10,19 +10,21 @@ font-family: 'Signika Negative', sans-serif;
 .left-side-text-carousel{
     text-align: left;
     list-style-image: url(img/check-icon.svg) inside;
+    weight: 14px;
 
 }
 .small-title{
-    color: #eb6d2f;
-    font-size: 14px !important;
+    color: #eb6d2f !important;
+    font-size: 16px !important;
     text-align: left;
 
 }
 .block-title{
-    color: #5a3733;
-    font-size: 25px;
+    color: #5a3733 !important;
+    font-size: 30px !important;
     text-align: inherit;
     font-weight: bold;
+    font-family: Signika Negative,sans-serif;
 
 }
 .describe-text{

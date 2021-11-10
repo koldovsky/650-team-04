@@ -4,7 +4,7 @@
 display: flex;
 flex-direction: column;
 justify-content: center;
-font-family: Open Sans,sans-serif;
+font-family: 'Signika Negative', sans-serif;
 }
 
 .left-side-text-carousel{
@@ -36,9 +36,11 @@ font-family: Open Sans,sans-serif;
     
 }
 .carousel-image{
-    border: 0;
+    border-image-source: 10px;
     align-self: center;
     size-adjust: inherit;
+    border-color: #f9f4f0;
+    
 }
 
 .carousel-title{

@@ -1,5 +1,13 @@
+.jar_of_honey {
+  background-image: url(../img/beeandhoney.jpg);
+  background-size: cover;
+  width: auto;
+  min-height: 839px;
+  position: relative;
+}
+
 /*100% organic i services */
-.headtoname {
+.head_to_name {
   color: var(--highlight-color);
   font-family: "Open Sans", sans-serif;
 }
@@ -10,7 +18,20 @@
   font-family: "Signika Negative", sans-serif;
   font-size: 100px;
   font-weight: 700px;
-  vertical-align: baseline;
+  position: absolute;
+  top: 320px;
+  left: 160px;
+  max-width: 500px;
+  max-height: 333px;
+  text-align: left;
+}
+
+.orange_lne {
+  color: rgb(235, 109, 47);
+  width: 50px;
+  border-bottom: 4px #eb6d2f solid;
+  margin: 10px 0 20px 0;
+  margin: auto;
 }
 
 /* big button Buy Now under HONEYBEE */
@@ -37,4 +58,10 @@
   letter-spacing: 0;
   color: var(--text-color-carousel);
   text-transform: none;
+  position: absolute;
+  top: 320px;
+  left: 160px;
+  max-width: 500px;
+  max-height: 333px;
+  text-align: left;
 }

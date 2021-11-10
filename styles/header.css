@@ -1,0 +1,19 @@
+.header-navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Button in head */
+.header_button, .header_button_buynow {
+    color: var(--accent-color);
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+/* Border of Buy now button in header */
+.header_button_buynow {
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: var(--highlight-color);
+    border-style: solid;
+}

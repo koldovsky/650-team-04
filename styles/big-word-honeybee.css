@@ -1,9 +1,8 @@
 .jar_of_honey {
   background-image: url(../img/beeandhoney.jpg);
   background-size: cover;
-  width: auto;
+  width: 100%;
   min-height: 839px;
-  position: relative;
   margin-top: 20px;
 }
 
@@ -56,7 +55,6 @@
   letter-spacing: 0;
   color: var(--text-color-carousel);
   text-transform: none;
-  position: absolute;
   top: 320px;
   left: 160px;
   max-width: 500px;

@@ -5,15 +5,17 @@
     --text-color-carousel: #939393;
 }
 
-* {
+/* {
     margin: 0;
     padding: 0;
-}
+}*/
 
 
 /*Page background*/
 .body {
     background-color: var(--main-color);
+    margin:0;
+    padding:0;
 }
 
 /*lists maket*/

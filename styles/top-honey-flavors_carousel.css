@@ -36,9 +36,11 @@ font-family: 'Signika Negative', sans-serif;
     
 }
 .carousel-image{
-    border: 0;
+    border-image-source: 10px;
     align-self: center;
     size-adjust: inherit;
+    border-color: #f9f4f0;
+    
 }
 
 .carousel-title{

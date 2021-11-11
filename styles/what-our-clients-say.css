@@ -4,44 +4,6 @@
     height: 100%;
 }
 
-.testimonials {
-    color: yellow;
-    text-align: center;
-    font-size: 14px;
-    margin-top: 40px;
-}
-
-.consumer-reviews-heading {
-    color: white;
-    text-align: center;
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 50px;
-    margin: auto;
-}
-
-.review-window-heading{
-    color: white;
-    text-align: center;
-    font-size: 18px;
-    margin: auto;
-}
-
-.review-window {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    font-size: 25px;
-    color: yellow;
-    margin: auto;
-}
-.review-text {
-    color: white;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    font-size: 16px;
-    margin: auto;
-}
 .consumer-reviews-places {
     display: flex;
     margin-inline: 100px; 
@@ -63,10 +25,103 @@
  }
 
 
+
+
+.testimonials {
+    color: yellow;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.consumer-reviews-heading {
+    color: white;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 50px;
+    margin: auto;
+}
+
+.review-window-heading{
+    color: white;
+    text-align: center;
+    font: inherit;
+    margin: auto;
+}
+
+.review-window {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    color: yellow;
+    margin: auto;
+    margin-top: 20px;
+}
+.review-text {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.review-window-date {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
 .consumers-photo {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 150px;
     height: 150px;
+}
+
+
+.short-info-block {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+} 
+
+.short-info-element {
+    display: block;
+    margin: auto;  
+}
+
+.short-info-heading {
+    text-align: center;
+    font-family: Signika Negative,sans-serif;
+    font-size: 50px;
+    color: #eb6d2f;
+    margin: auto;
+}
+
+.brown-line {
+    color: rgb(107, 41, 8);
+    width: 50px;
+    border-bottom: 4px #5a3733 solid;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.short-info-text {
+    text-align: center;
+    font: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5a3733;
+    margin: auto;
+    margin-bottom: 10px;
 }

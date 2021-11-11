@@ -7,14 +7,40 @@
 .testimonials {
     color: yellow;
     text-align: center;
+    font-size: 14px;
     margin-top: 40px;
 }
 
+.consumer-reviews-heading {
+    color: white;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 50px;
+    margin: auto;
+}
+
+.review-window-heading{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
 .review-window {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 25px;
     color: yellow;
+    margin: auto;
 }
 .review-text {
     color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    margin: auto;
 }
 .consumer-reviews-places {
     display: flex;
@@ -38,6 +64,9 @@
 
 
 .consumers-photo {
-    width: 75px;
-    height: 75px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
 }

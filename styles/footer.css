@@ -1,5 +1,5 @@
 .footer-menu {
-    display: grid;
+    display: flex;
     margin-left: 50px;
     text-align: center-important;
     justify-content: center-important;
@@ -17,9 +17,17 @@
 
 .footer-text {
     color: rgb(170, 150, 143);
+    text-align: center;
+    font-weight: bold;
 }
 
 .footer-logotype {
     display: block;
+    margin: 0 auto;
     width: 70px;
+}
+
+.team {
+    text-align: center;
+    margin-top: 30px;
 }

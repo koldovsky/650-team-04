@@ -1,19 +1,57 @@
-.header-navigation {
+:root {
+    --main-color: #f9f4f0;
+    --accent-color: #5a3733;
+    --highlight-color: #eb6d2f;
+    --text-color-carousel: #939393;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: var(--main-color);
+    padding: 5px;
+  }
+  
+  .menu {
     display: flex;
-    justify-content: space-around;
-}
-
-/* Button in head */
-.header_button, .header_button_buynow {
-    color: var(--accent-color);
-    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+    margin-left: 5px;
     text-decoration: none;
-}
-
-/* Border of Buy now button in header */
-.header_button_buynow {
+    color: var(--accent-color);
+  }
+  
+  .menu a {
+    width: 100px;
+  }
+  
+  .header_button_buynow {
     border-width: 2px;
     border-radius: 8px;
     border-color: var(--highlight-color);
     border-style: solid;
-}
+  }
+  
+  .header_button_buynow:hover {
+    color: white;
+    background-color: #eb6d2f;
+  }
+  
+  .header_button:hover {
+    color: #eb6d2f;
+  }
+  
+  @media (min-width: 900px) {
+    .nav-container {
+      display: flex;
+    }
+    .menu {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      flex: 1;
+    }
+  }

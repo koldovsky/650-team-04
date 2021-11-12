@@ -25,9 +25,10 @@
     display: block;
     margin: 0 auto;
     width: 70px;
+    margin-top: 40px;
 }
 
-.team {
+.footer-team {
     text-align: center;
     margin-top: 50px;
 }

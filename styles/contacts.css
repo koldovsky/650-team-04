@@ -1,14 +1,72 @@
 
 .contacts-block {
 display: flex;
+margin-top: 100px;
+margin-left: 0px;
+margin-right: 300px;
+}
+
+.contacts-small {
+    color: #eb6d2f;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 .contact-big {
     display: block;
-    margin-top: 40px;
-    color: rgb(rgb(177, 82, 10), green, blue);
-
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: rgb(rgb(177, 82, 10), green, blue);  
 }
+
+.contacts-comment {
+    font-size: 18px;
+    font-family: Open Sans,sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+.full-contacts-info {
+    display: block;
+    margin: auto;
+}
+
+.contacts-adress {
+    display: flex;
+}
+
+.contacts-hours {
+    display: flex;
+}
+
+.contacts-phone-email {
+    display: flex;
+}
+
+.contacts-elements-heading{
+    font-size: 25px;
+    font-family: Signika Negative,sans-serif;
+    color: #5a3733;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.contacts-elements-text {
+    font-size: 16px;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
 .contacts-form {
     display: inline;
     background-color: white;
@@ -20,7 +78,9 @@ display: flex;
     display: block;
     height: 40px;
     width: 400px;
-    margin-top: 20px;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
     background-color: rgb(252, 223, 181);
     border: white;
     border-radius: 10px;   
@@ -31,6 +91,8 @@ display: flex;
     height: 40px;
     width: 400px;
     margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
     background-color: rgb(252, 223, 181);
     border: white;
     border-radius: 10px;  
@@ -41,6 +103,8 @@ display: flex;
     height: 40px;
     width: 400px;
     margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
     background-color: rgb(252, 223, 181);
     border: white;
     border-radius: 10px;  
@@ -51,6 +115,8 @@ display: flex;
     height: 300px;
     width: 400px;
     margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
     background-color: rgb(252, 223, 181);
     border: white;
     border-radius: 10px; 
@@ -61,12 +127,12 @@ display: flex;
     width: 400px;
     display: block;
     margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
     background-color: rgb(248, 147, 4);
     border: white;
     border-radius: 10px;
 }
 
-.contacts-adress {
-    display: inline;
-}
+
 

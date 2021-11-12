@@ -14,3 +14,12 @@
     color: #5a3733;
     text-decoration: none;
 }
+
+.footer-text {
+    color: rgb(170, 150, 143);
+}
+
+.footer-logotype {
+    display: block;
+    width: 70px;
+}

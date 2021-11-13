@@ -8,7 +8,7 @@
 
 }
 .block-carousel{
-   flex-direction: column; 
+    display: flex;
 }
     
 .small-title{

@@ -2,26 +2,19 @@
 .block-list-carousel-border{
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    /*max-width:572px;
+    max-height: 472px;*/
 }
 .block-carousel{
-    margin: 10px;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    background-color: #ffffff;
-    width: 291px;
-    height: 500px;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: rgb(192 192 192 / 50%) 0 0 15px;
-    
 }
-    
+
 .small-title{
     color: #eb6d2f !important;
     font-size: 16px !important;
     text-align: left;
-
 }
 .block-title{
     color: #5a3733;
@@ -29,15 +22,12 @@
     text-align: inherit;
     font-weight: 700;
     
-
 }
 .describe-text{
     color:inherit;
     font-size: 16px;
     text-align: inherit;
-
 }
-
    
 }
 .carousel-image{
@@ -45,21 +35,16 @@
     align-self: center;
     size-adjust: inherit;
     border-color: #f9f4f0;
-
 }
-
 .carousel-title{
     font-size: 19px;
     font-family: inherit;
     text-align: center;
-
 }
 .text_carousel{
     color:inherit;
     font-size: 16px;
     text-align: center;
-
-
 }
 /*.carousel-button{
    background-color: #eb6d2f;
@@ -74,19 +59,12 @@
    transition: 0s;
    cursor: pointer;
    margin: 5px;
-
-
-
   
-
-
-
 }*/
 img{
     max-width: 50px;
 }
 .carousel-vulyk{
-    display: flex;
      border: 1px solid #fff;
     background-color: #fff;
     text-align: center;
@@ -96,7 +74,6 @@ img{
     margin: 10px;
 }
 .carousel-honey-drop{
-    display: flex;
      border: 1px solid #fff;
     background-color: #fff;
     text-align: center;
@@ -106,7 +83,6 @@ img{
     margin: 10px;
 }
 .carousel-honey-wildflower{
-    display: flex;
     border: 1px solid #fff;
     background-color: #fff;
     text-align: center;
@@ -116,7 +92,6 @@ img{
     margin: 10px;
 }
 .carousel-citrus-blossom{
-    display: flex;
     border: 1px solid #fff;
     background-color: #fff;
     text-align: center;
@@ -125,4 +100,3 @@ img{
     padding: 20px, 10px, 10px, 20px;
     margin: 10px;
 }
-

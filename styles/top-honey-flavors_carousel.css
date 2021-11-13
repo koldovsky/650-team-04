@@ -74,7 +74,7 @@
    height: 30px;
    background-color: #eb6d2f;
    font-weight: bold;
-   border-radius: 10%;
+   border-radius: 10px;
    border: none;
    font-family: inherit;
    text-align: center;
@@ -100,6 +100,7 @@ img{
     background-color: #fff;
     text-align: center;
     image-orientation:inherit;
-    border-radius: 5%;
+    border-radius: 2%;
+    margin: 20px, 10px, 10px, 20px;
 }
 

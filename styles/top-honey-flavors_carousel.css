@@ -9,6 +9,7 @@
 }
 .block-carousel{
     display: flex;
+    flex-direction: column;
 }
     
 .small-title{

@@ -1,7 +1,7 @@
 
 .block-list-carousel-border{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: flex-start;
     /*max-width:572px;
     max-height: 472px;*/

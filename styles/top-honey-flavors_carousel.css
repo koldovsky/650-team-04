@@ -4,13 +4,13 @@
 display: flex;
 flex-direction: column;
 justify-content: center;
-font-family: 'Signika Negative', sans-serif;
+font-family: Signika Negative,sans-serif;
 }
 
 .left-side-text-carousel{
     text-align: left;
     list-style-image: url(img/check-icon.svg) inside;
-    weight: 14px;
+    text-align: left;
 
 }
 .small-title{
@@ -20,11 +20,11 @@ font-family: 'Signika Negative', sans-serif;
 
 }
 .block-title{
-    color: #5a3733 !important;
-    font-size: 30px !important;
+    color: #5a3733;
+    font-size: 25px;
     text-align: inherit;
-    font-weight: bold;
-    font-family: Signika Negative,sans-serif;
+    font-weight: 700;
+    
 
 }
 .describe-text{
@@ -34,7 +34,10 @@ font-family: 'Signika Negative', sans-serif;
 
 }
 .list-carousel-main-carousel{
+    display: flex;
     color:inherit;
+    flex-direction: column;
+    flex-wrap:wrap-reverse;
     
 }
 .carousel-image{
@@ -42,7 +45,7 @@ font-family: 'Signika Negative', sans-serif;
     align-self: center;
     size-adjust: inherit;
     border-color: #f9f4f0;
-    
+
 }
 
 .carousel-title{
@@ -59,24 +62,29 @@ font-family: 'Signika Negative', sans-serif;
 
 }
 .carousel-button{
-    height: 30px;
-    color: #eb6d2f;
+   height: 30px;
+   background-color: #eb6d2f;
    font-weight: bold;
-   border-radius: 10px;
+   border-radius: 10%;
+   border: 1px;
+   font-family: inherit;
+   align-self: center;
+
 
 
 }
 img{
     max-width: 50px;
 }
-/*.carousel-vulyk{
-    
-
+.carousel-vulyk,
+.carousel-honey-drop,
+.carousel-honey-wildflower,
+.carousel-citrus-blossom{
+    min-width:272px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    text-align: center;
+    image-orientation:inherit;
+    border-radius: 5%;
 }
-.carousel-honey-drop{
-
-}
-.carousel-honey-wildflower{
-
-}*/
 

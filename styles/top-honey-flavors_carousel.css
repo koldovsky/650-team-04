@@ -13,9 +13,9 @@
 
 .left-side-text-carousel{
     text-align: left;
-    list-style-image: url(img/check-icon.svg) inside;
-    text-align: left;
-    justify-content: flex-end;
+    /*list-style-image: url(img/check-icon.svg) inside;*/
+    
+  
 
 }
 .small-title{
@@ -42,10 +42,9 @@
     text-align: left;
 }
 .list-carousel-main-carousel{
-    display: inline-flex;
     border: 0px;
     margin:inherit;
-    justify-content: flex-end;
+   
     
     
 }

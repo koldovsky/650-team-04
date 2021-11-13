@@ -7,6 +7,9 @@
     max-height: 472px;*/
 
 }
+.block-carousel{
+   flex-direction: column; 
+}
     
 .small-title{
     color: #eb6d2f !important;

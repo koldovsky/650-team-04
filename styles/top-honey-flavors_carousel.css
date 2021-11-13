@@ -1,5 +1,9 @@
 
 .block-list-carousel-border{
+    display: flex;
+    flex-direction: column;
+}
+.block-carousel{
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -11,10 +15,6 @@
     align-items: center;
     border-radius: 5px;
     box-shadow: rgb(192 192 192 / 50%) 0 0 15px;
-}
-.block-carousel{
-    display: flex;
-    flex-direction: column;
     
 }
     

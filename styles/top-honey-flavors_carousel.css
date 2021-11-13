@@ -36,6 +36,7 @@
     align-self: center;
     size-adjust: inherit;
     border-color: #f9f4f0;
+    max-width: 100px;
 }
 .carousel-title{
     font-size: 25px;
@@ -65,7 +66,7 @@
   
 }*/
 img{
-    min-width: 50px;
+    max-width: 50px;
    
 }
 .carousel-vulyk{

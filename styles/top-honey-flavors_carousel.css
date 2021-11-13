@@ -1,10 +1,13 @@
 
 .wraper{
     background-color: #f9f4f0;
-display: flex;
-flex-direction: column;
-justify-content: center;
-font-family: Signika Negative,sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Signika Negative,sans-serif;
+    color:inherit;
+    flex-direction: column;
+    flex-wrap:wrap;
 }
 
 .left-side-text-carousel{
@@ -34,10 +37,8 @@ font-family: Signika Negative,sans-serif;
 
 }
 .list-carousel-main-carousel{
-    display: flex;
-    color:inherit;
-    flex-direction: column;
-    flex-wrap:wrap-reverse;
+    align-self: flex-end;
+    
     
 }
 .carousel-image{

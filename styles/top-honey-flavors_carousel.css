@@ -1,10 +1,16 @@
 
 .block-list-carousel-border{
+    margin: 10px;
     display: flex;
     flex-direction: column;
-    /*max-width:572px;
-    max-height: 472px;*/
-
+    justify-content: space-around;
+    text-align: center;
+    background-color: #ffffff;
+    width: 291px;
+    height: 500px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgb(192 192 192 / 50%) 0 0 15px;
 }
 .block-carousel{
     display: flex;

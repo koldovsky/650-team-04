@@ -1,7 +1,7 @@
 
 .block-list-carousel-border{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /*max-width:572px;
     max-height: 472px;*/
 
@@ -9,6 +9,7 @@
 .block-carousel{
     display: flex;
     flex-direction: column;
+    
 }
     
 .small-title{

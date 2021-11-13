@@ -83,7 +83,7 @@ img{
 .carousel-honey-drop,
 .carousel-honey-wildflower,
 .carousel-citrus-blossom{
-    
+    display: flex;
     border: 1px solid #fff;
     background-color: #fff;
     text-align: center;

@@ -66,6 +66,9 @@ font-family: 'Signika Negative', sans-serif;
 
 
 }
+img{
+    max-width: inherit;
+}
 /*.carousel-vulyk{
     
 

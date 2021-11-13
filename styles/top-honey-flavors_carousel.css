@@ -79,7 +79,7 @@ img{
     image-orientation:inherit;
     border-radius: 2%;
     padding: 20px 10px;
-    width: 369px;
+    max-width: 369px;
    
 }
 .carousel-honey-drop{
@@ -89,7 +89,7 @@ img{
     image-orientation:inherit;
     border-radius: 2%;
     padding: 20px 10px;
-    width: 369px;
+    max-width: 369px;
 }
 .carousel-honey-wildflower{
     border: 1px solid #fff;
@@ -98,7 +98,7 @@ img{
     image-orientation:inherit;
     border-radius: 2%;
     padding: 20px 10px;
-    width: 369px;
+    max-width: 369px;
 }
 .carousel-citrus-blossom{
     border: 1px solid #fff;
@@ -107,5 +107,5 @@ img{
     image-orientation:inherit;
     border-radius: 2%;
     padding: 20px 10px;
-    width: 369px;
+    max-width: 369px;
 }

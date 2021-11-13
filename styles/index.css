@@ -27,6 +27,7 @@ img {
 ul{
     list-style: none;
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
 }
 /*H3*/
 h3{

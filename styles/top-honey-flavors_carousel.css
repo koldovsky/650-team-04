@@ -37,12 +37,13 @@
     border-color: #f9f4f0;
 }
 .carousel-title{
-    font-size: 19px;
+    font-size: 25px;
     font-family: inherit;
     text-align: center;
+    color:#5a3733;
 }
 .text_carousel{
-    color:inherit;
+    color:#5a3733;
     font-size: 16px;
     text-align: center;
 }
@@ -62,8 +63,8 @@
   
 }*/
 img{
-    max-width: 100px;
-    padding:10px 50px;
+    max-width: 50px;
+   
 }
 .carousel-vulyk{
     border: 1px solid #fff;

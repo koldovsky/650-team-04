@@ -34,8 +34,7 @@ h3{
     font-family: Open Sans,sans-serif;
     
 }
-/*.honey-video{
-    width= 1506px;
-    height= 567px;
+.honey-video{
+    width: 100%
     frameborder= 0;
-}*/
+}

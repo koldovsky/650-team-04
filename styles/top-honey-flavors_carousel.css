@@ -41,8 +41,8 @@
     font-size: 25px;
     text-align: center;
     color:#5a3733;
-    font-weight:700;
-    font-family: Signika Negative,sans-serif;
+    font-weight:700 !important;
+    font-family: Signika Negative !important,sans-serif;
 }
 .text_carousel{
     color:#5a3733;

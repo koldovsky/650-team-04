@@ -38,8 +38,14 @@
     text-align: inherit;
 
 }
+.block-column{
+    text-align: left;
+}
 .list-carousel-main-carousel{
-    align-self: flex-end;
+    display: inline-flex;
+    border: 0px;
+    margin:inherit;
+    justify-content: flex-end;
     
     
 }

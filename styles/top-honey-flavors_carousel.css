@@ -8,12 +8,14 @@
     color:inherit;
     flex-direction: column;
     flex-wrap:wrap;
+    
 }
 
 .left-side-text-carousel{
     text-align: left;
     list-style-image: url(img/check-icon.svg) inside;
     text-align: left;
+    justify-content: flex-end;
 
 }
 .small-title{

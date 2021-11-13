@@ -1,7 +1,7 @@
 
 .block-list-carousel-border{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .block-carousel{
     margin: 10px;

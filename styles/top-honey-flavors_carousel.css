@@ -83,7 +83,8 @@ img{
 .carousel-honey-drop,
 .carousel-honey-wildflower,
 .carousel-citrus-blossom{
-    min-width:272px;
+    max-width:572px;
+    max-height: 472px;
     border: 1px solid #fff;
     background-color: #fff;
     text-align: center;

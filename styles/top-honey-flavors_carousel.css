@@ -2,6 +2,7 @@
 .block-list-carousel-border{
     display: flex;
     flex-direction: row;
+    margin: 0 -5px;
     /*max-width:572px;
     max-height: 472px;*/
 }
@@ -9,6 +10,8 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    flex: 1 1 auto;
+    margin: 0 5px;
 }
 
 .small-title{

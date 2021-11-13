@@ -2,13 +2,13 @@
 .block-list-carousel-border{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     /*max-width:572px;
     max-height: 472px;*/
 }
 .block-carousel{
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
 }
 
 .small-title{

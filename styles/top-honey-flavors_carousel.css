@@ -79,9 +79,36 @@ display: flex;
 img{
     max-width: 50px;
 }
-.carousel-vulyk,
-.carousel-honey-drop,
-.carousel-honey-wildflower,
+.carousel-vulyk{
+     display: flex;
+    border: 1px solid #fff;
+    background-color: #fff;
+    text-align: center;
+    image-orientation:inherit;
+    border-radius: 2%;
+    padding: 20px, 10px, 10px, 20px;
+    margin: 10px;
+}
+.carousel-honey-drop{
+     display: flex;
+    border: 1px solid #fff;
+    background-color: #fff;
+    text-align: center;
+    image-orientation:inherit;
+    border-radius: 2%;
+    padding: 20px, 10px, 10px, 20px;
+    margin: 10px;
+}
+.carousel-honey-wildflower{
+     display: flex;
+    border: 1px solid #fff;
+    background-color: #fff;
+    text-align: center;
+    image-orientation:inherit;
+    border-radius: 2%;
+    padding: 20px, 10px, 10px, 20px;
+    margin: 10px;
+}
 .carousel-citrus-blossom{
     display: flex;
     border: 1px solid #fff;

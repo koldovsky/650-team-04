@@ -6,6 +6,8 @@ display: flex;
 .block-list-carousel-border{
     flex-direction: column;
     justify-content: flex-start;
+    max-width:572px;
+    max-height: 472px;
 
 }
     
@@ -81,13 +83,13 @@ img{
 .carousel-honey-drop,
 .carousel-honey-wildflower,
 .carousel-citrus-blossom{
-    max-width:572px;
-    max-height: 472px;
+    
     border: 1px solid #fff;
     background-color: #fff;
     text-align: center;
     image-orientation:inherit;
     border-radius: 2%;
     padding: 20px, 10px, 10px, 20px;
+    margin: 10px;
 }
 

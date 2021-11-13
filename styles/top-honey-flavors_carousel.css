@@ -3,8 +3,8 @@
     display: flex;
     flex-direction: row;
     margin: 0 -5px;
-    /*max-width:572px;
-    max-height: 472px;*/
+    max-width:572px;
+    max-height: 472px;
 }
 .block-carousel{
     display: flex;

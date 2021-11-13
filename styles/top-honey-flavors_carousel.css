@@ -52,21 +52,12 @@
     font-size: 16px;
     text-align: center;
 }
-/*.carousel-button{
+.carousel-button{
    background-color: #eb6d2f;
    color: #fff;
-   font-size: 16px;
-   text-align: center;
-   border: none;
-   display: inline-block;
-   border-radius: 2px;
-   padding: 20px;  
-   width: 150px;
-   transition: 0s;
-   cursor: pointer;
-   margin: 5px;
+ 
   
-}*/
+}
 img{
     max-width: 50px;
    

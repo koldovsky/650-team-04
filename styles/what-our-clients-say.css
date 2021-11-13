@@ -4,26 +4,18 @@
     height: 100%;
 }
 
+
+@media screen and (min-width: 600px) {
 .consumer-reviews-places {
+    position: relative;
     display: flex;
     margin-inline: 100px; 
 }
-
-.consumer-1 {
+}
+.consumer {
    margin: 20px;
    background-image: url(../img/background-for-consumers.png);
 }
-
-.consumer-2 {
-    margin: 20px;
-    background-image: url(../img/background-for-consumers.png);
- }
-
- .consumer-3 {
-    margin: 20px;
-    background-image: url(../img/background-for-consumers.png);
- }
-
 
 
 
@@ -49,13 +41,12 @@
     margin: auto;
 }
 
-.review-window {
+.review-name {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-size: 25px;
     color: yellow;
-    margin: auto;
     margin-top: 20px;
 }
 .review-text {
@@ -68,16 +59,21 @@
     margin-top: 10px;
     margin-left: 40px;
     margin-right: 40px;
+    margin-bottom: 50px;
 }
 
 .review-window-date {
+    position: absolute;
+    bottom: 0;
     color: white;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-size: 16px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 
@@ -85,17 +81,18 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 150px;
-    height: 150px;
+    width: 150px !important;
+    height: 150px !important;
 }
 
-
+@media screen and (min-width: 600px) {
 .short-info-block {
+    background-image: url(../img/background-short-info-block.png);
     display: flex;
-    margin-top: 60px;
-    margin-left: 60px;
+    margin-top: 0px;
+    margin-left: 0px;
 } 
-
+}
 .short-info-element {
     display: block;
     margin: auto;  

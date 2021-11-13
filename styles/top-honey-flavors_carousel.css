@@ -29,16 +29,8 @@ display: flex;
     text-align: inherit;
 
 }
-.block-column{
-    text-align: left;
-}
-.list-carousel-main-carousel{
-    display: inline-flex;
-    border: 0px;
-    margin:inherit;
-    justify-content: flex-end;
-    
-    
+
+   
 }
 .carousel-image{
     border-image-source: 10px;

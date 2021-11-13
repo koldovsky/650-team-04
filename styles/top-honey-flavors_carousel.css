@@ -39,9 +39,10 @@
 }
 .carousel-title{
     font-size: 25px;
-    font-family: inherit;
     text-align: center;
     color:#5a3733;
+    font-weight:700;
+    font-family: Signika Negative,sans-serif;
 }
 .text_carousel{
     color:#5a3733;

@@ -1,0 +1,16 @@
+.want-to-order-honey{
+    position: relative;
+    margin: o auto;
+    padding: 20px 20px 20px 20px;
+}
+.container_r{
+    display:flex ;
+    flex-direction:row ;
+    justify-content:space-around ;
+}
+.order-descr{
+    display: flex;
+    flex-direction:row ;
+    justify-content:space-around ; 
+
+}

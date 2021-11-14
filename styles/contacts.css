@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 680px) {
 .contacts-block {
 display: flex;
 margin: auto;
@@ -70,7 +70,7 @@ margin: auto;
 
 .contacts-form {
     width: 100%;
-    display: inline;
+    display: block;
     background-color: white;
     border: white;
     border-radius: 10px;

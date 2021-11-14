@@ -62,3 +62,19 @@
   display: inline-block;
   font-size: 16px;
 }
+
+.carousel_block {
+  /*display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1 1 auto;
+  margin: 0 5px;
+}
+
+.carousel-img {
+  width: 91px;
+  height: 100px;
+}

@@ -1,0 +1,7 @@
+.offers_buy{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: 100%;
+}

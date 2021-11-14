@@ -35,6 +35,8 @@
     font-size: 16px;
     text-align: inherit;
 }
+ img{
+    max-width:initial;
    
 }
 .carousel-image{

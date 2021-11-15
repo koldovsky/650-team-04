@@ -10,5 +10,9 @@
 }
 .order-descr{
     display: flex;
-    flex-direction:row ;
-    justify-content:space-around ; 
+    flex-direction:row;
+    justify-content:space-around; 
+}
+.our-honey{
+    background-image: url(../img/background-wave.png);
+}

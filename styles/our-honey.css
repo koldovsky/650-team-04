@@ -28,12 +28,9 @@ img{
     width: 50px;
     border-bottom: 4px #eb6d2f solid;
     text-align: center;
-    display: inline-block;
-    
+    display: inline-block;   
 }
-.our-honey{
-    background-image: url(../img/background-wave.png);
-}
+
 .header_store{
     display: block;
     text-align: center;

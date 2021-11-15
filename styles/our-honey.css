@@ -5,7 +5,7 @@
 img{
     width: 100%;
 }
-}
+
 .honey_link{
     display: block;
     text-align: center;
@@ -31,4 +31,11 @@ img{
     margin: auto;
     display: inline-block;
     border-radius: 8px;
+}
+.our-honey{
+    background-image: url(../img/background-wave.png);
+}
+.header_store{
+    display: block;
+    text-align: center;
 }

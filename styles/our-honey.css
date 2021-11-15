@@ -27,10 +27,9 @@ img{
     color: #eb6d2f;
     width: 50px;
     border-bottom: 4px #eb6d2f solid;
-    margin: 10px 0 20px 0;
-    margin: auto;
+    text-align: center;
     display: inline-block;
-    border-radius: 8px;
+    
 }
 .our-honey{
     background-image: url(../img/background-wave.png);

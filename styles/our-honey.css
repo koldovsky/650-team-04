@@ -5,3 +5,30 @@
 img{
     width: 100%;
 }
+}
+.honey_link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.price{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.button_honey{
+ display: block;
+ text-align: center;
+ text-decoration: none;
+ background-color: #eb6d2f;  
+ border-radius: ;
+}
+.devider_our{
+    color: #eb6d2f;
+    width: 50px;
+    border-bottom: 4px #eb6d2f solid;
+    margin: 10px 0 20px 0;
+    margin: auto;
+    display: inline-block;
+    border-radius: 8px;
+}

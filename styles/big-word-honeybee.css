@@ -25,12 +25,13 @@
 
 .line {
   color: #eb6d2f;
-  width: 50px;
+  width: 20px;
+  height: 4px;
   border-bottom: 4px #eb6d2f solid;
-  margin: 10px 0 20px 0;
   margin: auto;
   display: inline-block;
-  border-radius: 8px;
+  text-align: center;
+ 
 }
 
 .text_big_word {

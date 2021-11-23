@@ -67,6 +67,20 @@ margin: auto;
 }
 
 
+#map {
+    height: 300px;
+    width: 300px;
+  }
+ 
+  @media screen and (min-width: 600px) {
+    #map {
+        height: 400px;
+        width: 400px;
+      }
+    }
+
+
+
 
 .contacts-form {
     width: 100%;

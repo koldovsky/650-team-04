@@ -13,29 +13,32 @@
 
 /*Page background*/
 .body {
-  background-color: var(--main-color);
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;   
+    background-color: var(--main-color);
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
+
 img {
-    width:100%;
+    width: 100%;
 }
 
 /*lists maket*/
-ul{
+ul {
     list-style: none;
     font-family: 'Open Sans', sans-serif;
     line-height: 2.0;
 }
+
 /*H3*/
-h3{
+h3 {
     font-size: inherit;
-    font-family: Open Sans,sans-serif;
-    
+    font-family: Open Sans, sans-serif;
+
 }
-.honey-video{
-    width: 100%
-    frameborder: 0;
+
+.honey-video {
+    width: 100% frameborder="0";
+
 }

@@ -84,8 +84,6 @@
 
 @media screen and (min-width: 600px) {
 .review-window-date {
-    position: absolute;
-    bottom: 0;
     color: white;
     text-align: center;
     font-family: 'Open Sans', sans-serif;

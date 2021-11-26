@@ -178,8 +178,12 @@
     background-color: rgba(0,0,0,0,0.8);
 }
 
+.bottom-buttons {
+    display: block;
+    margin: auto;
+}
+
 .dot {
-    position: center;
     height: 13px;
     width: 13px;
     margin: 0 2px;

@@ -24,7 +24,7 @@ box-sizing: border-box;
     justify-content: normal;
     display: flex;
     flex-direction:column;
-    border: 0;
+    border: none;
 }
 .accordion-header{
 background-color: #f9f4f0;

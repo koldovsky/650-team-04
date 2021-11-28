@@ -6,7 +6,7 @@
     display: flex;
     min-width: none;
     padding: 55px;
-    flex-direction:row;
+    flex-direction:row !important;
     flex-wrap: nowrap;
     justify-content: normal;
     align-items: normal;

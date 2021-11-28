@@ -82,3 +82,14 @@ color:#5a3733;
 .accordion-item{
     -ms-box-orient: horizontal;
 }
+.line1 {
+    height: 4
+px
+;
+    width: 20%;
+    color: #eb6d2f;
+    border-bottom: 4
+px
+ #eb6d2f solid;
+    margin: 0;
+}

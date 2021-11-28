@@ -8,7 +8,7 @@
 
     }
 .accordion{
-    background-color:inherit;
+    background-color:#f9f4f0;
     
 
 }
@@ -17,8 +17,9 @@
 }
 .accordion-button:not(.collapsed) {
     
-    background-color: inherit;
+    background-color: #f9f4f0;
     box-shadow: none;
+    border: none;
 }
 //accordion icon
 .accordion-button:not(.collapsed)::after {

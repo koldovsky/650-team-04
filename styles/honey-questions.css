@@ -24,6 +24,7 @@ box-sizing: border-box;
     justify-content: normal;
     display: flex;
     flex-direction:column;
+    border: 0;
 }
 .accordion-header{
 background-color: #f9f4f0;
@@ -31,8 +32,16 @@ background-color: #f9f4f0;
 .accordion-button:not(.collapsed) {
     background-color: #f9f4f0;
     box-shadow: none;
-    border: 0;
+   
     color:#5a3733;
+}
+.accordion-body{
+background-color: #f9f4f0;
+color:#5a3733;
+}
+.accordion-button{
+background-color: #f9f4f0;
+color:#5a3733;
 }
 //accordion icon
 .accordion-button:not(.collapsed)::after {

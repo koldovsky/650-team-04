@@ -19,7 +19,7 @@
     align-items: right;
     justify-content: normal;
     display: flex;
-    flex-direction:column;
+    flex-direction:column !important;
 }
 .accordion-header{
 background-color: #f9f4f0;

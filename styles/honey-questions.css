@@ -3,18 +3,22 @@
     float: left;
     }
 .FAQ{
-        display: flex;
-        min-width: none;
-        width: 100%;
-        justify-content: flex-start;
+    display: flex;
+    min-width: none;
+    padding: 55px;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    
+    
     }
 .accordion{
     background-color:inherit;
     flex-basis: auto;
     align-items: right;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
+    justify-content: normal
+   
 
 
 

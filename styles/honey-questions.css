@@ -90,12 +90,14 @@ color:#5a3733;
     margin: 0;
 }
 .text_big_word{
- 
     text-align: start;
 }
 .block-title{
-margin: 3%;
+    margin: 2%;
+    text-align: start;
+    
 }
 .describe-text{
-margin:2%;
+    margin:2%;
+    text-align: start;
 }

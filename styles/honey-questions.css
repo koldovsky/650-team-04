@@ -90,5 +90,18 @@ color:#5a3733;
     margin: 0;
 }
 .text-accordion{
-text-align: start;
+font-size: 16px;
+    line-height: 1.7;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: var(--text-color-carousel);
+    text-transform: none;
+    top: 320px;
+    left: 160px;
+    max-width: 500px;
+    max-height: 333px;
+    text-align: start;
 }

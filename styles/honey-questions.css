@@ -6,11 +6,16 @@
         display: flex;
         min-width: none;
         width: 100%;
+        justify-content: flex-start;
     }
 .accordion{
     background-color:inherit;
     flex-basis: auto;
     align-items: right;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
 
 
 }

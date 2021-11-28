@@ -17,7 +17,6 @@
 }
 .accordion-button:not(.collapsed) {
     
-    background-color: #f9f4f0;
     box-shadow: none;
     border: 0;
 }

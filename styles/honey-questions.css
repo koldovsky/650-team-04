@@ -6,7 +6,7 @@
     display: flex;
     min-width: none;
     padding: 55px;
-    flex-direction:row !important;
+    flex-direction:column;
     flex-wrap: nowrap;
     justify-content: normal;
     align-items: normal;
@@ -19,7 +19,7 @@
     align-items: right;
     justify-content: normal;
     display: flex;
-    flex-direction:column !important;
+    flex-direction:column;
 }
 .accordion-header{
 background-color: #f9f4f0;

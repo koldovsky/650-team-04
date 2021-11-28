@@ -67,6 +67,12 @@ color:#5a3733;
     background-color: #f9f4f0;
     box-shadow:none;
 }
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
 .accordion-button:hover {
     z-index: auto;
 }

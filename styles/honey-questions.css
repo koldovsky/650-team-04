@@ -19,7 +19,7 @@
     
     background-color: #f9f4f0;
     box-shadow: none;
-    border: none;
+    border: 0;
 }
 //accordion icon
 .accordion-button:not(.collapsed)::after {

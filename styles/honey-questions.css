@@ -5,6 +5,7 @@
     .FAQ{
         display: flex;
         min-width: none;
+        flex-direction: row;
 
     }
 .accordion{

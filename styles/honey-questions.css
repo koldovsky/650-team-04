@@ -3,6 +3,9 @@
     float: left;
     display: block;
     }
+.FAQ{
+box-sizing: border-box;
+}
 .FAQ-textsection{
     display: flex;
     min-width: none;

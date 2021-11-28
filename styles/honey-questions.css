@@ -35,4 +35,5 @@
     background-repeat: no-repeat;
     background-size: 1.25rem;
     transition: transform .2s ease-in-out;
+    background-color: #f9f4f0;
 }

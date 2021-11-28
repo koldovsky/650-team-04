@@ -83,13 +83,9 @@ color:#5a3733;
     -ms-box-orient: horizontal;
 }
 .line1 {
-    height: 4
-px
-;
+    height: 5px;
     width: 20%;
     color: #eb6d2f;
-    border-bottom: 4
-px
- #eb6d2f solid;
+    border-bottom: 5px #eb6d2f solid;
     margin: 0;
 }

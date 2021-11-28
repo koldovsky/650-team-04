@@ -1,6 +1,7 @@
 .left-img-faq{
     min-width: 40%;
     float: left;
+    display: block;
     }
 .FAQ-textsection{
     display: flex;

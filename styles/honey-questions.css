@@ -5,13 +5,10 @@
 .FAQ{
         display: flex;
         min-width: none;
-        box-sizing: border-box;
         width: 100%;
     }
 .accordion{
     background-color:inherit;
-    flex-grow: 1;
-    flex-shrink: 2;
     flex-basis: auto;
     align-items: right;
 

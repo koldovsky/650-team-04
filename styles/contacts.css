@@ -36,34 +36,39 @@ margin: auto;
 }
 
 .contacts-adress {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .contacts-hours {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .contacts-phone-email {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .contacts-elements-heading{
+    display: block;
     font-size: 25px;
     font-family: Signika Negative,sans-serif;
     color: #5a3733;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .contacts-elements-text {
+    display: block;
     font-size: 16px;
     font-family: Open Sans,sans-serif;
     font-weight: 400;
     word-wrap: break-word;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 

@@ -181,6 +181,7 @@
 .bottom-buttons {
     display: block;
     margin: auto;
+    text-align: center;
 }
 
 .dot {

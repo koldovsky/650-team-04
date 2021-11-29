@@ -23,6 +23,14 @@
    background-image: url(../img/background-for-consumers.png);
 }
 
+@media screen and (min-width: 680px) {
+.consumer {
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+    background-image: url(../img/background-for-consumers.png);
+ }
+}
 
 
 .testimonials {

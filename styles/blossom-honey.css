@@ -1,0 +1,60 @@
+:root {
+    --main-color: #f9f4f0;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Page background*/
+.body {
+    background-color: var(--main-color);
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+
+}
+
+
+
+.link-to-index {
+    color: #ffd832;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.green-text {
+    color: #61a854;
+}
+
+.fatty-brown-text {
+    color: #5a3733;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.brown-text {
+    color: #5a3733;
+}
+
+.price-honey {
+    color: #939393;
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.honey-description {
+    color: #939393;
+    font-family: Open Sans, sans-serif;
+}
+
+.weight {
+    color: #939393;
+    font-family: Open Sans, sans-serif;
+}

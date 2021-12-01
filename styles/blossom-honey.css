@@ -65,15 +65,13 @@
     display: flex;
 }
 
-@media(min-width: 600px) {
-    .image-container {
-        display: flex;
-    }
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
 }
 
 @media(min-width: 600px) {
-    .content-container {
+    .main-container {
         display: flex;
-
     }
 }

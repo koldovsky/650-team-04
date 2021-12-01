@@ -66,19 +66,7 @@
 }
 
 @media(min-width: 600px) {
-    .in-stock-container {
-        display: flex;
-    }
-}
-
-@media(min-width: 600px) {
-    .input-button-container {
-        display: flex;
-    }
-}
-
-@media(min-width: 600px) {
-    description-container {
+    .content-container {
         display: flex;
     }
 }

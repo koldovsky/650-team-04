@@ -14,17 +14,24 @@
     background-color: var(--main-color);
     padding: 5px;
   }
+
+  .logo {
+    margin-right: 10px;
+  }
   
   .menu {
     display: flex;
     flex-direction: column;
     margin-left: 5px;
     text-decoration: none;
-    color: var(--accent-color);
+    color: #5a3733;
   }
   
   .menu a {
     width: 100px;
+    color: var(--accent-color);
+    display: flex;
+    justify-content: space-between;
   }
   
   .header_button_buynow {

@@ -12,12 +12,19 @@
 /*Page background*/
 .body {
     background-color: var(--main-color);
-    padding-top: 50px;
+    /*padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 80px;
+    padding-left: 80px;*/
 
 
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(1fr, 2fr);
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -28,18 +35,45 @@
     font-size: 25px;
 }
 
+.blossom-honey-img {
+
+    width: 367px;
+    height: 359px;
+
+
+
+}
+
+
+
+.honey-description {
+    color: #939393;
+    font-family: Open Sans, sans-serif;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+
+}
+
+
+
 .green-text {
     color: #61a854;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 10px;
+
 }
 
 .fatty-brown-text {
     color: #5a3733;
     font-weight: bold;
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .brown-text {
     color: #5a3733;
+    margin-bottom: 10px;
 }
 
 .price-honey {
@@ -47,31 +81,31 @@
     font-family: Open Sans, sans-serif;
     font-weight: bold;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
-.honey-description {
-    color: #939393;
-    font-family: Open Sans, sans-serif;
-}
+
 
 .weight {
     color: #939393;
     font-family: Open Sans, sans-serif;
+    padding: 30px 10px;
 }
 
-.blossom-honey-img {
-    width: 208px;
-    height: 203px;
-    display: flex;
-}
 
-.main-container {
-    display: grid;
-    grid-template-columns: repeat(1fr, 2fr);
-}
+
+
+
+
+
+
+
+
 
 @media(min-width: 600px) {
     .main-container {
         display: flex;
     }
+
+
 }

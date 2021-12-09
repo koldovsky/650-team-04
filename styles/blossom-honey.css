@@ -1,96 +1,114 @@
-:root {
-    --main-color: #f9f4f0;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika+Negative&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Signika+Negative&display=swap");
 
+:root {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9f4f0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  border: 0;
 }
 
-* {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  overflow-x: hidden;
+  position: relative;
+  min-width: 320px;
+}
+
+.container {
+  max-width: 2000px;
+ margin: auto;
 }
 
 .body {
-    background-color: var(--main-color);
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-
+  background-color: var(--main-color);
+  /*padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;*/
 }
 
 .main-container {
-    margin: 10% 2% 0% 2%;
-    align-items: center;
-    justify-content: center;
-
+  margin: 15% 2% 0% 2%;
+  align-items: center;
+  justify-content: center;
 }
 
 .link {
-    margin-top: -25%;
-    margin-right: 15%;
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: flex-start;
+  position: fixed;
 }
+
 
 .link-to-index {
-    color: #ffd832;
-    text-decoration: none;
-    font-size: 25px;
+ color: #ffd832;
+  text-decoration: none;
+  font-size: 25px;
 }
-
 .blossom-honey-img {
-
-    width: 367px;
-    height: 359px;
+  width: 367px;
+  height: 359px;
 }
-
-
 
 .honey-description {
-    color: #939393;
-    font-family: Open Sans, sans-serif;
-    margin-bottom: 15px;
-    padding: 10px 10px;
+  color: #939393;
+  font-family: Open Sans, sans-serif;
+  margin-bottom: 15px;
+  padding: 10px 10px;
 }
 
-
-
 .green-text {
-    color: #61a854;
-    text-align: center;
-    display: inline-block;
-    margin-bottom: 10px;
+  color: #61a854;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 .fatty-brown-text {
-    color: #5a3733;
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 10px;
+  color: #5a3733;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
 .brown-text {
-    color: #5a3733;
-    margin-bottom: 10px;
+  color: #5a3733;
+  margin-bottom: 10px;
 }
 
 .price-honey {
-    color: #939393;
-    font-family: Open Sans, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 10px;
+  color: #939393;
+  font-family: Open Sans, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
-
-
 
 .weight {
-    color: #939393;
-    font-family: Open Sans, sans-serif;
-    padding: 30px 10px;
+  color: #939393;
+  font-family: Open Sans, sans-serif;
+  padding: 30px 10px;
 }
 
-@media(min-width: 600px) {
-    .main-container {
-        display: flex;
-    }
-
-
+  
+  
+@media (min-width: 800px) {
+  .main-container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    
+  }
+  
 }

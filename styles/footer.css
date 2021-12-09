@@ -1,34 +1,83 @@
-.footer-menu {
-    display: flex;
-    margin-left: 50px;
-    text-align: center-important;
-    justify-content: center-important;
-}
 
-.footer_button {
-    margin: 0.5px;
-    width: 100%;
-    height: 24px;
-    font-family: 'open sans', sans-serif;
-    font-weight: bold;
-    color: #5a3733;
-    text-decoration: none;
-}
-
-.footer-text {
-    color: rgb(170, 150, 143);
+.footer {
+  
     text-align: center;
-    font-weight: bold;
-}
-
-.footer-logotype {
+  }
+  
+  .footer-logo {
     display: block;
-    margin: 0 auto;
-    width: 70px;
-    margin-top: 40px;
-}
-
-.footer-team {
-    text-align: center;
-    margin-top: 50px;
-}
+    margin: auto;  
+  height: 69px;
+  }
+  
+  .bottom-grey-text {
+    font-size: 14px;
+    color: rgb(170, 155, 143);
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+  
+  .menu-footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0px 0px;
+  }
+  
+  .menu-elements {
+    color: rgb(90, 55, 51);
+    font-size: 16px;
+    margin: 0px 17.5px;
+    padding: 10px;
+    font-weight: 600;
+  }
+  
+  .icons-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-icons {
+    overflow: hidden;
+    margin: 5px;
+  }
+  
+  .social-icons {
+    border-radius: 50%;
+  }
+  
+  .social-icons img {
+    height: 38px;
+    margin-top: 30px;
+  }
+  
+  .footer-bottom {
+    padding: 15px 40px;
+  }
+  
+  .end {
+    font-size: 14px;
+    color: rgb(65, 57, 57);
+  }
+  
+  @media (min-width: 941px) {
+    .footer img {
+      display: block;
+      justify-content: center;
+    }
+  
+    .menu-footer {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .menu-elements {
+      font-weight: 600;
+    }
+  
+    .end {
+      font-size: 16px;
+    }
+  }
+  

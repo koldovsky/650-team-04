@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles/blossom-honey.css">
     <link rel="stylesheet" href="styles/blossom-honey-header.css">
     <link rel="stylesheet" href="styles/blossom-footer.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/blossom-burger.css">
     <title>HoneyBee</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika+Negative:wght@600;700&display=swap');
@@ -16,25 +18,32 @@
 </head>
 
 
-<body class=" body">
-    <header class="header">
-        <!--navigation-->
-        <nav>
-            <div class="nav-container">
-                <div class="logo">
-                    <img src=" img/blossom-logotype-header.svg">
+<body>
+    
+        <header>
+
+            <div class="header">
+
+                <img class="header-img" src="img/blossom-logotype-header.svg" alt="blossom-image">
+                <div class="header__burger">
+                    <span></span>
                 </div>
-                <div class="menu">
-                    <a href="#about_us" class="header-button">About Us</a>
-                    <a href="#types_of_honey" class="header-button">Types of Honey</a>
-                    <a href="#store" class="header-button">Store</a>
-                    <a href="#testimonials" class="header-button">Testimonials</a>
-                    <a href="#contact_us" class="header-button">Contact Us</a>
-                    <a href="#buy_honey" class="header-button-buynow"><b>Buy Honey</b></a>
-                </div>
+                <nav class="header-container-menu">
+                    <div class="menu-header">
+                        <a href="#About US" class="menu-header-elements">About US</a>
+                        <a href="#Types of Honey" class="menu-header-elements">Types of Honey</a>
+                        <a href="#Store" class="menu-header-elements">Store</a>
+                        <a href="#sTestimonials" class="menu-header-elements">Testimonials</a>
+                        <a href="#Contact Us" class="menu-header-elements">Contact Us</a>
+                        <a href="#BuyHoney" class="menu-header-elements" id="menu-header-elements-button-border">Buy
+                            Honey</a>
+
+                    </div>
+                </nav>
             </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
+   
     <main>
         <div class="main-container">
             <nav class="link">
@@ -65,20 +74,43 @@
             </div>
         </div>
     </main>
-    <footer class="footer">
-        <img src="img/footer-logotype.svg" alt="footer-logotype" class="footer-logotype">
-        <p class=footer-text>Honey Production Company </p>
-        <nav class="footer-menu">
-            <a href="#about_us" class="footer_button">About Us</a>
-            <a href="#types_of_honey" class="footer_button">Types of Honey</a>
-            <a href="#store" class="footer_button">Store</a>
-            <a href="#testimonials" class="footer_button">Testimonials</a>
-            <a href="#contact_us" class="footer_button">Contact Us</a>
-        </nav>
-        <div class="footer-team">
-            <p>© Created by " Team 04"</p>
+    <footer>
+        <div class="footer">
+            <img src="img/logo_bee.svg" class="footer-logo" alt="Bee">
+            <div class="bottom-grey-text">Honey Production Company</div>
+            <nav class="menu-footer">
+                <a href="#About US" class="menu-elements">About US</a>
+                <a href="#Types of Hone" class="menu-elements">Types of Honey</a>
+                <a href="#Store" class="menu-elements">Store</a>
+                <a href="#Testimonials" class="menu-elements">Testimonials</a>
+                <a href="#Contact Us" class="menu-elements">Contact Us</a>
+            </nav>
+            <nav class="icons-container">
+                <ul class="icons-list">
+                    <li class="button-icons">
+                        <a class="social-icons" href="http://www.facebook.com/" target="_blank">
+                            <img src="img/fb-icon.svg" alt="facebook">
+                        </a>
+                    </li>
+                    <li class="button-icons">
+                        <a class="social-icons" href="https://www.instagram.com/" target="_blank">
+                            <img src="img/insta-icon.svg" alt="instagram">
+                        </a>
+                    </li>
+                    <li class="button-icons">
+                        <a class="social-icons" href="https://www.youtube.com/" target="_blank">
+                            <img src="img/youtube-icon.svg" alt="youtube">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer-bottom">
+                <span class="end">©Created by team 04</span>
+            </div>
         </div>
+           
     </footer>
+    <script src="js/burger-menu.js"></script>
 </body>
 
 </html>
